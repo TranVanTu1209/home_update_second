@@ -1,0 +1,129 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+    integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/tablets.css" />
+  <link rel="stylesheet" href="./css/mobile.css" />
+  <link rel="icon" href="logo.ico" type="image/x-icon" />
+  <title>Đăng ký</title>
+</head>
+
+<body class="bg-extra-light">
+  <!-- forgot password -->
+  <section id="forgot-password" class="sign-up py-3">
+    <div class="container">
+      <div class="row rounded">
+        <div class="col-lg-1 col-md-0 bg-extra-light"></div>
+        <div class="forgot-box bg-white p-3 px-5 rounded col-lg-5 col-md-6">
+          <h3 class="font-weight-bold text-center mb-4">
+            Tạo tài khoản
+          </h3>
+
+          <div class="continue mb-3">
+            <div class="inner d-flex">
+              <a class="font-weight-bold" href="#">
+                Continue as Đoàn
+              </a>
+              <img src="./img/fotgot_img.jpg" class="rounded" alt="Hotel Mandala" />
+            </div>
+          </div>
+          <!--  -->
+          <div class="text-center tranform py-2">
+            Hoặc
+          </div>
+          <!--  -->
+          <div class="choice-sign-in py-3">
+            <div class="row">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-4">
+                <button class="sign-mail active small">
+                  <i class="fas fa-envelope"> Email</i>
+                </button>
+
+              </div>
+              <div class="col-sm-4">
+                <button class="sign-phone small">
+                  <i class="fas fa-mobile-alt"></i> Số điện thoại
+                </button>
+
+              </div>
+            </div>
+            <!-- email -->
+            <form action="" class="form-email py-4">
+              <div class="form-group py-2">
+                <input type="email" name="" class="form-control" placeholder="Email" required />
+              </div>
+              <div class="form-group py-2">
+                <input type="text" name="" class="form-control" placeholder="Họ tên" required />
+              </div>
+              <div class="form-group py-2">
+                <input type="password" name="" class="form-control" placeholder="Mật khẩu" required />
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="check-email" name="">
+                <label class="custom-control-label small mt-1" for="check-email">Nhận email về các khuyến mãi độc
+                  quyền từ
+                  Mandala Inn. Tôi có thể bỏ đăng ký bất kỳ lúc nào như đã nêu trong Chính sách Bảo mật.</label>
+              </div>
+              <div class="capcha"></div>
+              <input type="submit" value="Tạo tài khoản" class="border rounded border-primary p-2 d-block" />
+            </form>
+
+            <!-- phone number -->
+            <form action="" class="form-phone py-4 d-none">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="phone-prefix">(+84)</span>
+                </div>
+                <input type="text" class="form-control" placeholder="" aria-label="Phone number"
+                  aria-describedby="phone-prefix" required>
+
+              </div>
+              <div class="form-group py-2">
+                <input type="text" name="" class="form-control" placeholder="Họ tên" required />
+              </div>
+              <div class="form-group py-2">
+                <input type="password" name="" class="form-control" placeholder="Mật khẩu" required />
+              </div>
+              <div class="capcha"></div>
+              <input type="submit" value="Tạo tài khoản" class="border rounded border-primary p-2 d-block" />
+            </form>
+            <p class="small pt-2">
+              Khi đăng nhập, tôi đồng ý với các Điều khoản sử dụng và Chính sách bảo mật của Mandala Inn.
+            </p>
+            <hr>
+            <div class="d-flex justify-content-between align-items-center">
+              <p>
+                Bạn đã có tài khoản?
+              </p>
+              <a href="sign-in.html" class="btn btn-outline-primary px-4">Đăng nhập</a>
+            </div>
+          </div>
+          <!--  -->
+
+
+        </div>
+        <div class="col-md-5">
+          <img src="./img/sign_in.png" alt="" class="d-md-block d-none aside-img">
+        </div>
+        <div class="col-md-2 bg-extra-light"></div>
+      </div>
+
+    </div>
+  </section>
+  <!-- js boostrap -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="./js/sign_in_sign_up.js"></script>
+</body>
+
+</html>
